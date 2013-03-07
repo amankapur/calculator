@@ -1,12 +1,13 @@
 <html>
 	<head>
-		<title> Calculate</title>
+		<title> Calculator</title>
 		
-		<link rel=stylesheet type="text/css" href ="css/style.css">
+		
 		<link rel=stylesheet type="text/css" href ="css/bootstrap.css">
 		<link rel=stylesheet type="text/css" href ="css/bootstrap.min.css">
 		<link rel=stylesheet type="text/css" href ="css/bootstrap-responsive.css">
 		<link rel=stylesheet type="text/css" href ="css/bootstrap-responsive.min.css">
+		<link rel=stylesheet type="text/css" href ="css/style.css">
 
  	 	<script type="text/javascript" src ="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 				
@@ -18,12 +19,18 @@
 	
 	<body>
 		<div class="container">
-			<div class="hero-unit">
+			<h2> Enter numbers to add </h2>
+			<div class="span3">
+				<button class="add_number" id="2"> Add more numbers </button>
 			</div>
+		  <div class="span3 inputs">
+				<input class="number" id="number1" type="text" placeholder="Enter number 1">
+				<input class="number" id="number2" type="text" placeholder="Enter number 2">
+			</div>
+			<div class="span4 answer">
+				<div id="result"></div>
+			<div>
 		</div>
-
-
 	</body>
-
 </html>
 
